@@ -299,6 +299,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8680CF932ABA393C00B93A3F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9629563629CD846900A587C5 /* AppDelegate.swift */,
+				9629563829CD846900A587C5 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		9602B0F529D9DCF900FD66D2 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,15 +360,14 @@
 		9629563529CD846900A587C5 /* Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				96816CE22A5D723A003795A4 /* Resources */,
+				8680CF932ABA393C00B93A3F /* Application */,
 				96F7038229FD1A0C00BBFF5C /* Domain */,
 				96E63F4529D732E500AA0970 /* Helpers */,
+				9629564429CD846B00A587C5 /* Info.plist */,
+				9629564129CD846B00A587C5 /* LaunchScreen.storyboard */,
 				96526ADC29D4A52900329D34 /* Models */,
 				96526ADB29D4A51F00329D34 /* Presentation */,
-				9629563629CD846900A587C5 /* AppDelegate.swift */,
-				9629563829CD846900A587C5 /* SceneDelegate.swift */,
-				9629564129CD846B00A587C5 /* LaunchScreen.storyboard */,
-				9629564429CD846B00A587C5 /* Info.plist */,
+				96816CE22A5D723A003795A4 /* Resources */,
 			);
 			path = Tracker;
 			sourceTree = "<group>";
