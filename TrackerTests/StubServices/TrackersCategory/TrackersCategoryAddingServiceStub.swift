@@ -12,5 +12,5 @@ final class TrackersCategoryAddingServiceStub {}
 
 // MARK: - TrackersCategoryAddingServiceProtocol
 extension TrackersCategoryAddingServiceStub: TrackersCategoryAddingServiceProtocol {
-	func addCategory(title: String) {}
+    func addCategory(title: String) {}
 }

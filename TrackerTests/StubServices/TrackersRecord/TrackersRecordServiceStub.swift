@@ -9,14 +9,14 @@ import Foundation
 import Tracker
 
 final class TrackersRecordServiceStub {
-	weak var delegate: TrackersRecordServiceDelegate?
+    weak var delegate: TrackersRecordServiceDelegate?
 }
 
 // MARK: - TrackersRecordServiceProtocol
 extension TrackersRecordServiceStub: TrackersRecordServiceProtocol {
-	func fetchCompletedRecords(for date: Date) {}
-
-	func completedTimesCount(trackerId: UUID) -> Int {
-		0
-	}
+    func fetchCompletedRecords(for date: Date) {}
+    
+    func completedTimesCount(trackerId: UUID) -> Int {
+        0
+    }
 }
